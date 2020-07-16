@@ -1,0 +1,13 @@
+.blogpostcontainer{
+    width: 70%;
+}
+
+.blogheader{
+    text-align: center;
+}
+
+.posttitle{
+    letter-spacing: 0.5px;
+    transform: capitalize;
+    font-size: 30px;
+}

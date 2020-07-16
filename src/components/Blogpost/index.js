@@ -9,9 +9,16 @@ import Card from '../UI/Card';
 
 const Blogpost = (props) => {
   return(
-        <Card style = {{width: '70%'}}>
-            My BLOG post
-        </Card>
+        <div className = 'blogpostcontainer'>
+          <Card>
+            <div className = 'blogheader'>
+              <span>featured</span>
+              <h1 className = 'posttitle'>Beautifull is always Beautifull</h1>
+              <span>Posted on 28 dec 2020</span>
+              </div>
+          </Card>
+
+        </div>
    )
 
  }

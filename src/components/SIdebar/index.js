@@ -9,7 +9,7 @@ import Card from '../UI/Card';
 
 const Sidebar = (props) => {
   return(
-    <Card style = {{width: '25%', borderRadius: '20px'}}>
+    <Card width = '27%'>
       side bar
     </Card>
    )
