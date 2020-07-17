@@ -9,9 +9,23 @@ import Card from '../UI/Card';
 
 const Sidebar = (props) => {
   return(
-    <Card width = '27%'>
-      side bar
-    </Card>
+
+    <div className = "sidebarcontainer">
+      
+        <div className = 'cardheader'>
+          <span>ABOUT US</span>
+        </div>
+
+        <div className = 'profilepic'>
+          <img src = {require('../../images/basin 2.jpg')} alt = 'about us image'/>
+        </div>
+
+        <div className = 'cardheader2'>
+        <span>Social Networking</span>
+        </div>
+
+
+    </div>
    )
 
  }

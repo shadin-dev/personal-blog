@@ -12,10 +12,17 @@ const Blogpost = (props) => {
         <div className = 'blogpostcontainer'>
           <Card>
             <div className = 'blogheader'>
-              <span>featured</span>
+              <span className = 'bolgcategery'>Featured</span>
               <h1 className = 'posttitle'>Beautifull is always Beautifull</h1>
-              <span>Posted on 28 dec 2020</span>
+              <span className = 'posted by'>Posted on 28 dec 2020</span>
               </div>
+
+              <div className = 'postimagecontainer'>
+          <img src = {require('../../images/basin.jpg')} alt = 'basin with grey color'/>
+
+        </div>
+
+        
           </Card>
 
         </div>

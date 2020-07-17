@@ -2,3 +2,45 @@
     width: 25%;
     background: #ffffff;
 }
+
+.sidebarcontainer{
+    width: 27%;
+}
+
+.cardheader{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+
+.cardheader2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+
+.profilepic{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: seashell;
+}
+
+.profilepic img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
